@@ -87,6 +87,8 @@
 @media (min-width: 321px) and (max-width: 768px) {
 
   #brand-hidden{display: none;}
+ 
+
       body{
         background-color: #F8F8F8;
         margin: 0;
@@ -204,6 +206,7 @@
 #brand-hidden{display: block;}
 #brand-desktop{display: none;}
 
+
   body{
     background-color: #F8F8F8;
     margin: 0;
@@ -266,7 +269,7 @@ flex-wrap: wrap;
   .header{
     background: linear-gradient(90deg, #F8F8F8 1.39%, #FFF 100%);
    border-top:  1px #D9FFF5 solid;
-   width: 768px;
+   min-width: 768px;
    height: 56px;
    }
  
