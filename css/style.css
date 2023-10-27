@@ -209,8 +209,12 @@
 #brand-hidden{display: block;}
 #brand-desktop{display: none;}
 
-
-  body{
+html, body {
+  overflow-x: hidden;
+}
+body {
+  position: relative;
+  
     background-color: #F8F8F8;
     margin: 0;
     padding: 0;
